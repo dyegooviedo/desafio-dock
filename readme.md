@@ -1,6 +1,6 @@
 # Como rodar?
 
-## Configure o seu mongoDB e porta no arquivo .env
+## Crie o seu próprio arquivo .env baseado em .envExample
 ```
 MONGODB_URI=<URL_DO_SEU_BANCO_DE_DADOS_MONGO>
 PORT=5000
