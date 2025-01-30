@@ -1,3 +1,28 @@
+# Como rodar?
+
+## Configure o seu mongoDB e porta no arquivo .env
+```
+MONGODB_URI=<URL_DO_SEU_BANCO_DE_DADOS_MONGO>
+PORT=5000
+```
+
+## Instale as dependências e rode o projeto
+```
+npm i && npm run dev
+```
+
+# Débitos técnicos
+
+Devido a ser apenas um teste para avaliar conhecimentos, alguns débitos técnicos foram deixados para trás, assim eu foquei apenas em tornar funcional com um código limpo e bem comentado.
+Lista de débitos técnicos e melhorias:
+- Tratamento de números negativos recebidos pela URL
+- Tratamento de valores de moeda
+- Validações de segurança ao fazer um saque ou depósito
+- Validações de segurança ao bloquear uma conta ou reativa-la
+- Implementação focada em cloud ou arquitetura microservices
+- Implementação de cache
+
+
 # Cenário
 
 A Dock está crescendo e expandindo seus negócios, gerando novas oportunidades de revolucionar o mercado financeiro e criar produtos diferenciados.
